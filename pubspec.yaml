@@ -1,0 +1,27 @@
+name: freezed_dart2js_repro
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  freezed_annotation: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  bloc: any
+  build_runner: any
+  flutter_bloc: any
+  flutter_lints: ^2.0.0
+  freezed: any
+
+flutter:
+  uses-material-design: true
